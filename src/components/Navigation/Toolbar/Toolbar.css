@@ -4,7 +4,8 @@
 	position: fixed;
 	top: 0;
 	left: 0;
-	background-color: #703809;
+	background-image: url(../../../assets/images/whatapic.png);
+	/*background-color: #FF780F; /*#703809;*/
 	display: flex;
 	justify-content: space-between;
 	align-items: center;

@@ -1,6 +1,7 @@
 .BuildControls {
 	width: 100%;
-	background-color: #CFA12D;
+	/*background-color: #CFA12D;*/
+    background-image: url(../../../assets/images/whatapic.png);
 	display: flex;
 	flex-flow: column;
 	align-items: center;

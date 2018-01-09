@@ -4,9 +4,10 @@ import classes from './Toolbar.css';
 import Logo from '../../Logo/Logo';
 import NavigationItems from '../NavigationItems/NavigationItems';
 import DrawerToggle from '../SideDrawer/DrawerToggle/DrawerToggle';
+import Background from '../../../assets/images/whatapic.png';
 
 const toolbar = (props)=> (
-	<hearder className={classes.Toolbar}>
+	<header className={classes.Toolbar}>
 		<DrawerToggle clicked={props.drawerToggleClicked}/>
 		<div className={classes.Logo}>
 			<Logo />
@@ -14,7 +15,7 @@ const toolbar = (props)=> (
 		<nav className={classes.DesktopOnly}>
 			<NavigationItems/>
 		</nav>
-	</hearder>
+	</header>
 );
 
 export default toolbar;
